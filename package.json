@@ -1,0 +1,26 @@
+{
+  "name": "domains-launchpad",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Launchpad - a beginner's knowledge base for tech, engineering and creative domains. Built on the ButterCMS Vue architecture.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --host",
+    "test": "vitest run",
+    "seed:butter": "node scripts/seed-butter.mjs"
+  },
+  "dependencies": {
+    "buttercms": "^2.0.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^15.11.7",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.9"
+  }
+}
