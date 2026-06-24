@@ -11,6 +11,11 @@ export function clusterClass(cluster) {
   return 'cl-' + clusterKey(cluster)
 }
 
+export function clusterShort(cluster) {
+  const k = clusterKey(cluster)
+  return k === 'hardware' ? 'Hardware' : k === 'creative' ? 'Creative' : 'Software'
+}
+
 export function diffClass(d = '') {
   const x = String(d).toLowerCase()
   if (x.includes('adv')) return 'diff-advanced'

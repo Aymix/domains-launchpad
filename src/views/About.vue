@@ -26,7 +26,7 @@ import { store } from '../store.js'
         summarised each field, then a second pass fact-checked every resource link and YouTube channel to
         remove dead or invented links. A final editor wrote the cross-cutting “Start Here” guide.
       </p>
-      <div class="callout warn">
+      <div class="callout muted">
         <div class="ct">A quick honesty note</div>
         Resources were auto-checked, but the web changes fast. If a link has moved, a quick search for the
         course or channel name will usually find its new home.

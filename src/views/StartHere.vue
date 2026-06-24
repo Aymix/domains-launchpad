@@ -12,7 +12,7 @@ function trackDomains(slugs) {
 </script>
 
 <template>
-  <section class="hero" style="padding:56px 0 36px">
+  <section class="hero">
     <div class="container narrow">
       <p class="eyebrow">Start here</p>
       <h1>How to choose a direction — and actually begin</h1>
@@ -20,20 +20,20 @@ function trackDomains(slugs) {
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" style="padding-top:8px">
     <div class="container narrow">
       <div v-if="guide.howToChoose">
-        <h2>🧭 How to choose a domain</h2>
+        <h2>How to choose a domain</h2>
         <Prose :text="guide.howToChoose" />
       </div>
 
-      <div v-if="guide.domainMap" style="margin-top:36px">
-        <h2>🗺️ How the domains connect</h2>
+      <div v-if="guide.domainMap" style="margin-top:48px">
+        <h2>How the domains connect</h2>
         <Prose :text="guide.domainMap" />
       </div>
 
-      <div v-if="(guide.learningPrinciples || []).length" style="margin-top:36px">
-        <h2>📐 Learning principles that always work</h2>
+      <div v-if="(guide.learningPrinciples || []).length" style="margin-top:48px">
+        <h2>Learning principles that always work</h2>
         <ul class="prose">
           <li v-for="(p, i) in guide.learningPrinciples" :key="i">{{ p }}</li>
         </ul>
@@ -41,7 +41,7 @@ function trackDomains(slugs) {
     </div>
   </section>
 
-  <section class="section section-soft" v-if="(guide.starterTracks || []).length">
+  <section class="section section-alt" v-if="(guide.starterTracks || []).length">
     <div class="container">
       <div class="section-head">
         <h2>Starter tracks</h2>
@@ -52,9 +52,9 @@ function trackDomains(slugs) {
           <h3>{{ t.name }}</h3>
           <p class="tt" v-if="t.tagline">{{ t.tagline }}</p>
           <div class="track-domains">
-            <RouterLink v-for="d in trackDomains(t.domains)" :key="d.slug" :to="`/domain/${d.slug}`" class="tag">{{ d.icon }} {{ d.name }}</RouterLink>
+            <RouterLink v-for="d in trackDomains(t.domains)" :key="d.slug" :to="`/domain/${d.slug}`" class="tag">{{ d.name }}</RouterLink>
           </div>
-          <p style="color:var(--text-soft);margin:0" v-if="t.why">{{ t.why }}</p>
+          <p style="color:var(--body);margin:0;font-size:0.92rem" v-if="t.why">{{ t.why }}</p>
         </div>
       </div>
     </div>
@@ -62,16 +62,16 @@ function trackDomains(slugs) {
 
   <section class="section" v-if="(guide.universalFreeResources || []).length">
     <div class="container narrow">
-      <h2>🆓 Universal free resources</h2>
-      <p style="color:var(--text-soft)">Useful for every path on this site.</p>
+      <h2>Universal free resources</h2>
+      <p style="color:var(--muted);margin-bottom:24px">Useful for every path on this site.</p>
       <ResourceList :items="guide.universalFreeResources" />
     </div>
   </section>
 
-  <section class="section section-soft" v-if="(guide.firstSevenDays || []).length">
+  <section class="section section-alt" v-if="(guide.firstSevenDays || []).length">
     <div class="container narrow">
-      <h2>📅 Your first 7 days</h2>
-      <ol class="numbered">
+      <h2>Your first 7 days</h2>
+      <ol class="numbered" style="margin-top:20px">
         <li v-for="(d, i) in guide.firstSevenDays" :key="i">{{ d }}</li>
       </ol>
     </div>
@@ -79,12 +79,12 @@ function trackDomains(slugs) {
 
   <section class="section" v-if="(guide.mindsetTips || []).length">
     <div class="container narrow">
-      <h2>🌱 Mindset tips</h2>
+      <h2>Mindset tips</h2>
       <ul class="prose">
         <li v-for="(t, i) in guide.mindsetTips" :key="i">{{ t }}</li>
       </ul>
-      <div style="margin-top:24px">
-        <RouterLink to="/#domains" class="btn btn-primary">Browse the domains →</RouterLink>
+      <div style="margin-top:28px">
+        <RouterLink to="/#domains" class="btn btn-primary">Browse the domains</RouterLink>
       </div>
     </div>
   </section>

@@ -9,7 +9,7 @@ const props = defineProps({ stages: { type: Array, default: () => [] } })
         <span class="num">{{ i + 1 }}</span>
         <h3>{{ s.stage }}</h3>
       </div>
-      <p class="goal" v-if="s.goal">🎯 {{ s.goal }}</p>
+      <p class="goal" v-if="s.goal">{{ s.goal }}</p>
       <ol v-if="s.steps && s.steps.length">
         <li v-for="(step, j) in s.steps" :key="j">{{ step }}</li>
       </ol>
