@@ -17,8 +17,8 @@ beforeAll(() => {
 })
 
 describe('content sanity', () => {
-  it('has 16 fully-formed domains', () => {
-    expect(kb.domains.length).toBe(16)
+  it('has a full set of fully-formed domains', () => {
+    expect(kb.domains.length).toBeGreaterThanOrEqual(18)
     for (const d of kb.domains) {
       expect(d.slug, 'slug').toBeTruthy()
       expect(d.name, `name ${d.slug}`).toBeTruthy()
@@ -59,7 +59,7 @@ describe('Home view', () => {
     const w = mount(Home, { global })
     const txt = w.text()
     expect(txt).toContain('starter track')
-    expect(w.findAll('.domain-card').length).toBe(16)
+    expect(w.findAll('.domain-card').length).toBe(kb.domains.length)
   })
 })
 
