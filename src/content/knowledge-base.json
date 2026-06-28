@@ -6281,6 +6281,450 @@
       }
     },
     {
+      "slug": "video-editing",
+      "name": "Video Editing",
+      "cluster": "Creative & Interactive",
+      "icon": "🎬",
+      "tagline": "Turn raw clips into a story people actually watch to the end.",
+      "introVideo": {
+        "url": "https://www.youtube.com/watch?v=zZff_i0ji6U",
+        "videoId": "zZff_i0ji6U",
+        "title": "Complete Beginners Guide To Video Editing in 2025",
+        "channel": "Sarb Johal - The TechPacker"
+      },
+      "overview": "Video editing is the craft of taking the footage you shot, the bits and pieces, and arranging them into something that flows and makes sense. A camera just records moments. An editor decides which moments stay, in what order, how long each one lasts, and what the viewer feels along the way. The same raw clips can become a boring 10-minute slog or a tight 60-second hook, and the only difference is the editing.\n\nThe core workflow is simpler than it looks. You drop your clips onto a timeline, which is a left-to-right track of time. You watch, you find the good parts, and you cut away the dead air, the stumbles, the long pauses. Then you layer things on top: background music, a voiceover, text on screen, maybe some B-roll (extra footage) to cover a jump. You balance the audio so nobody has to reach for the volume, do a quick color pass so it looks intentional, and then you export, which turns your project into a single video file you can upload. Cut, trim, layer, balance, color, export. That loop is 90 percent of the job.\n\nHere is the part nobody tells beginners: you can start today for free, with no excuses. DaVinci Resolve is a genuinely professional editor used on real films, and the free version does almost everything. CapCut is free, runs on your phone or desktop, and is built for the vertical short-form stuff that dominates TikTok, Reels, and Shorts in 2024 to 2026. You do not need Premiere Pro or a Mac or a fancy GPU to learn. You need one clip, one free tool, and the willingness to make something a little ugly before you make something good.",
+      "whyItMatters": "Video is the default language of the internet now. People search YouTube instead of Google, scroll Reels instead of reading, and judge a brand by a 15-second clip. Whether you want to grow a channel, sell a product, document a trip, or just land a job where \"can you edit?\" is on the listing, the skill pays off fast. Short-form vertical video in particular has a low barrier and huge reach, so a beginner who can cut a clean, watchable clip is genuinely useful to creators, small businesses, and themselves. And because the good free tools are the same ones pros use, the gap between \"learning\" and \"doing real work\" is smaller than in almost any other creative field.",
+      "isItForYou": "This is for you if you like the idea of shaping a story, you have some patience for fiddly detail, and you enjoy the moment when a rough mess suddenly clicks into something smooth. You do not need to be artistic, technical, or own expensive gear. If you have a phone and a laptop, you have enough. It suits people who like immediate feedback, because you can watch your change instantly and feel whether it works. It is less ideal if you hate sitting still, since editing is a lot of small repeated adjustments and re-watching the same five seconds. But if \"make this clip better\" sounds satisfying rather than tedious, you will probably love it.",
+      "prerequisites": [
+        "A computer or a phone — a modern phone alone is enough for CapCut, and a basic laptop handles DaVinci Resolve fine for short videos",
+        "Some footage to practice on: clips from your phone, screen recordings, or free stock video — you do not need a real camera",
+        "Enough free storage space, since video files are large; even short projects can eat several gigabytes, so keep a few spare GB free",
+        "Basic comfort with files and folders — knowing how to find, move, and rename your clips so your project does not become a mess",
+        "Patience and a willingness to re-watch the same clip many times; editing is iterative, not one-and-done",
+        "Headphones or decent speakers, because you cannot fix audio you cannot hear properly"
+      ],
+      "coreConcepts": [
+        {
+          "name": "Timeline",
+          "what": "The main workspace, a left-to-right strip showing your video over time. Clips sit on tracks stacked top to bottom: video on top, audio and music below. Everything you build, every cut and layer, lives here, and the playhead (the vertical line) shows the exact moment you are viewing."
+        },
+        {
+          "name": "The cut (and trimming)",
+          "what": "Cutting splits a clip into pieces so you can delete the bad parts; trimming drags a clip's edge to shorten or extend it. This is the heartbeat of editing. Most of your time is spent removing dead space, stumbles, and pauses so the video moves at a pace that holds attention."
+        },
+        {
+          "name": "B-roll",
+          "what": "Extra, secondary footage laid over your main shot. If someone is talking about a coffee shop, you cut to a clip of the coffee being poured while their voice keeps going. B-roll hides edits, adds visual interest, and makes a talking-head video feel produced instead of static."
+        },
+        {
+          "name": "J-cuts and L-cuts",
+          "what": "Tricks where picture and sound do not change at the same instant. In a J-cut you hear the next scene's audio before you see it; in an L-cut the previous scene's audio lingers as the picture changes. They make transitions feel smooth and natural, the way conversations overlap in real life, instead of robotic hard cuts."
+        },
+        {
+          "name": "Color correction vs color grading",
+          "what": "Two different jobs people confuse. Correction fixes problems so footage looks right: white balance, exposure, matching shots so they belong together. Grading is the creative layer on top, the mood and look, warm and golden or cold and cinematic. You correct first to make it accurate, then grade to make it feel a certain way."
+        },
+        {
+          "name": "LUTs",
+          "what": "A LUT (Look-Up Table) is a preset that instantly maps your colors to a new look, like a filter for grading. Drop one on and your footage takes on a ready-made cinematic style. They are a fast shortcut, but a LUT applied to uncorrected footage usually looks wrong, so correct first, then add the LUT and tweak."
+        },
+        {
+          "name": "Audio levels and ducking",
+          "what": "Levels mean how loud each sound is, measured in dB; you aim for dialogue that sits comfortably loud without clipping (distorting). Ducking automatically lowers the music whenever someone speaks, then brings it back up in the gaps. Good audio is invisible; bad audio makes people leave faster than ugly video ever will."
+        },
+        {
+          "name": "Keyframes",
+          "what": "Markers that tell a property to change over time. Set a keyframe with text off-screen and another with it on-screen, and the editor animates the move between them. Keyframes drive almost all motion and effects: a zoom that grows, text that slides in, music that fades, an image that drifts across the frame."
+        },
+        {
+          "name": "Transitions",
+          "what": "How one clip becomes the next. The plain hard cut (instant switch) is the most common and usually the best. Dissolves, fades, and wipes have their place, but beginners overuse flashy transitions. A clean cut on the beat almost always looks more professional than a spinning star wipe."
+        },
+        {
+          "name": "Codecs and export",
+          "what": "Export is the final step that bakes your timeline into one shareable file. The codec is the compression method inside it; H.264 (in an MP4) is the safe default that plays everywhere and uploads cleanly to every platform. Settings like resolution (1080p, 4K) and bitrate decide the balance between file size and quality."
+        },
+        {
+          "name": "Aspect ratios",
+          "what": "The shape of your frame. 16:9 is wide, for YouTube and TVs. 9:16 is tall, for TikTok, Reels, and Shorts. 1:1 is square. In 2024 to 2026, vertical 9:16 short-form rules social feeds, so decide your ratio before you start, because reframing a wide shot to fit tall often crops out half your subject."
+        },
+        {
+          "name": "Proxies",
+          "what": "Lightweight stand-in copies of heavy footage (like 4K or phone HEVC) that your computer plays smoothly while you edit. When you export, the software swaps the full-quality originals back in. If editing feels laggy and your clips stutter, proxies are the fix that makes a modest laptop feel fast."
+        },
+        {
+          "name": "Render and playback",
+          "what": "Rendering is the computer doing the math to show effects, color, and transitions. Sometimes the timeline must render a section before it plays back smoothly. Understanding this stops the panic when a heavy clip stutters during editing; it usually plays fine once rendered or exported."
+        },
+        {
+          "name": "Bins and organization",
+          "what": "Bins are folders inside your project for sorting clips, audio, and graphics. Naming files and grouping them sounds boring, but a tidy project saves hours. The moment you have 200 clips named IMG_0423, finding the good take becomes a nightmare, so label as you import."
+        }
+      ],
+      "toolsAndTech": [
+        "DaVinci Resolve - free, pro-grade editor with built-in color, audio (Fairlight), and visual effects (Fusion); the best free pick for going deep",
+        "CapCut - free, very easy editor for phone and desktop; great for quick social clips, captions, and trendy effects",
+        "Adobe Premiere Pro - paid industry-standard editor used in a lot of pro and YouTube work; subscription based",
+        "Final Cut Pro - paid Mac-only editor known for being fast and smooth; one-time purchase",
+        "Shotcut - free and open-source editor that runs on Windows, Mac, and Linux; good no-cost starting point",
+        "HitFilm - free editor that mixes normal cutting with built-in visual effects; nice if you like sci-fi style shots",
+        "After Effects basics - Adobe's motion graphics and animation tool for titles, logos, and effects (it animates, it does not cut footage)",
+        "Audacity - free audio editor for cleaning up voice, removing noise, and fixing levels before they go in your video",
+        "OBS Studio - free tool for screen recording and live streaming; how most people capture gameplay or tutorials to edit later",
+        "HandBrake - free tool that shrinks and converts video files so they upload faster and play everywhere",
+        "Pexels Videos - free stock footage you can drop into edits without paying or crediting",
+        "Pixabay - free stock video, music, and sound effects for background B-roll and audio",
+        "Mixkit - free stock clips, music, and sound effects aimed at editors and creators"
+      ],
+      "roadmap": [
+        {
+          "stage": "Beginner",
+          "goal": "Get comfortable opening an editor, cutting clips, and exporting a finished video you can actually share.",
+          "steps": [
+            "Download DaVinci Resolve (free) or open CapCut, and learn the basic layout: media pool, timeline, and the play head.",
+            "Import a few clips, drag them onto the timeline in order, and trim the boring parts off the start and end of each clip.",
+            "Add a music track underneath, lower its volume so talking is still clear, and add a simple fade in and fade out.",
+            "Learn how to export (render) a video as an MP4 at 1080p and watch it back on your phone."
+          ],
+          "milestoneProject": "Make a 60-second highlight video from your own phone clips (a day out, a meal, a walk) with music and a clean export."
+        },
+        {
+          "stage": "Building",
+          "goal": "Edit with intention: control pacing, keep audio clean, and add basic text and color so videos look deliberate instead of random.",
+          "steps": [
+            "Practice cutting to the beat of music and removing dead air so the video never drags.",
+            "Add titles and lower-thirds (a name caption), and learn keyframes to make text fade or slide in.",
+            "Clean up audio: remove background hiss, balance loud and quiet parts, and match levels across clips.",
+            "Do a basic color pass: fix white balance, adjust brightness and contrast, and make clips from different cameras look similar."
+          ],
+          "milestoneProject": "Edit a 2-3 minute 'how to' or vlog video with on-screen text, beat-matched cuts, clean audio, and a simple color correction."
+        },
+        {
+          "stage": "Intermediate",
+          "goal": "Tell a story and work faster, like a real editor would on a paid job.",
+          "steps": [
+            "Build a rough cut from messy footage: choose the best takes, structure a beginning-middle-end, then tighten it into a final cut.",
+            "Learn color grading (not just correction): create a mood with a look, and use scopes to check your image is broadcast-safe.",
+            "Add motion graphics basics: animated lower-thirds, simple logo reveals, and smooth transitions you make yourself instead of canned ones.",
+            "Speed up your workflow with keyboard shortcuts, proxy media for big files, and a tidy folder/naming system for projects."
+          ],
+          "milestoneProject": "Cut a 3-5 minute short documentary or interview piece with b-roll, a graded look, animated titles, and a music + voice mix."
+        },
+        {
+          "stage": "Advanced",
+          "goal": "Deliver client-ready work in any format and handle the messy parts of real productions.",
+          "steps": [
+            "Master multi-camera editing: sync several angles by audio and cut between them live.",
+            "Get fluent in advanced color: node-based grading, secondary corrections (changing just the sky or skin), and matching shots precisely.",
+            "Do sound design and a proper mix: sound effects, room tone, ducking music under voice, and exporting to loudness standards.",
+            "Learn delivery for every platform: vertical for Reels/TikTok, 16:9 for YouTube, captions/subtitles, and correct codecs for client handoff."
+          ],
+          "milestoneProject": "Produce a polished 90-second brand or product ad: multicam or layered b-roll, full color grade, motion graphics, sound design, plus vertical and horizontal exports with burned-in captions."
+        }
+      ],
+      "freeCourses": [
+        {
+          "title": "DaVinci Resolve Official Training (free PDF books + project files)",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+          "provider": "Blackmagic Design",
+          "level": "Beginner to Advanced",
+          "note": "Free. The makers of Resolve give away full training books and the practice footage to go with them. Best free starting point for the whole editor."
+        },
+        {
+          "title": "Premiere Pro Tutorials",
+          "url": "https://helpx.adobe.com/premiere-pro/tutorials.html",
+          "provider": "Adobe",
+          "level": "Beginner to Intermediate",
+          "note": "Free. Adobe's own step-by-step lessons. The tutorials are free to watch even if you only use the trial of Premiere Pro."
+        },
+        {
+          "title": "Final Cut Pro Resources",
+          "url": "https://www.apple.com/final-cut-pro/resources/",
+          "provider": "Apple",
+          "level": "Beginner to Intermediate",
+          "note": "Free. Official guides and videos for Mac users. Good if you want to learn the Apple side of editing."
+        },
+        {
+          "title": "DaVinci Resolve Full Beginner Tutorial",
+          "url": "https://www.youtube.com/@KevinStratvert",
+          "provider": "Kevin Stratvert (YouTube)",
+          "level": "Beginner",
+          "note": "Free. Clear, plain-English walkthrough of Resolve from zero. Search his channel for the DaVinci Resolve tutorial and follow along."
+        },
+        {
+          "title": "DaVinci Resolve Tutorials & Tips",
+          "url": "https://www.youtube.com/@CaseyFaris",
+          "provider": "Casey Faris (YouTube)",
+          "level": "Beginner to Intermediate",
+          "note": "Free. Friendly, practical Resolve videos on editing, color, and workflow. Great for the 'building' stage once you know the basics."
+        },
+        {
+          "title": "Video Editing Classes",
+          "url": "https://www.skillshare.com/en/browse/video-editing",
+          "provider": "Skillshare",
+          "level": "Beginner to Intermediate",
+          "note": "Freemium. Some classes are free to watch and the rest are free during the trial. Useful for short, focused lessons on one skill at a time."
+        }
+      ],
+      "youtubeChannels": [
+        {
+          "name": "Ben Claremont",
+          "url": "https://www.youtube.com/@BenClaremont",
+          "whyGood": "Clear, friendly DaVinci Resolve tutorials made for total beginners; his 'edit like a pro for free' guide is a classic first watch."
+        },
+        {
+          "name": "Primal Video (Justin Brown)",
+          "url": "https://www.youtube.com/@PrimalVideo",
+          "whyGood": "Calm, well-structured beginner walkthroughs across Premiere Pro, DaVinci, and CapCut, plus practical 'how to edit for YouTube' workflow tips."
+        },
+        {
+          "name": "Kevin Stratvert",
+          "url": "https://www.youtube.com/@kevinstratvert",
+          "whyGood": "Step-by-step, zero-jargon tutorials; his CapCut beginner guide is one of the easiest ways to make your first edit."
+        },
+        {
+          "name": "Gavin Herman",
+          "url": "https://www.youtube.com/@GavinHerman",
+          "whyGood": "Short, punchy Premiere Pro lessons like 'learn Premiere Pro in 10 minutes' that teach the basics fast without overwhelming you."
+        },
+        {
+          "name": "Vince Opra",
+          "url": "https://www.youtube.com/@vinceopra",
+          "whyGood": "Modern, beginner-focused Premiere Pro guides plus editing and content tips aimed at people growing a channel."
+        },
+        {
+          "name": "Trentorials",
+          "url": "https://www.youtube.com/@Trentorials",
+          "whyGood": "Full free Premiere Pro masterclass-style videos that take a complete beginner from opening the app to a finished edit."
+        }
+      ],
+      "articlesAndDocs": [
+        {
+          "title": "DaVinci Resolve - Training and Official Manual",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+          "provider": "Blackmagic Design",
+          "level": "beginner",
+          "note": "Free. Official lessons and the full PDF manual straight from the people who make DaVinci Resolve. The best no-cost way to learn it properly."
+        },
+        {
+          "title": "Adobe Premiere Pro Tutorials",
+          "url": "https://helpx.adobe.com/premiere-pro/tutorials.html",
+          "provider": "Adobe",
+          "level": "beginner",
+          "note": "Free. Adobe's own get-started tutorials and step-by-step guides for Premiere Pro, from your first edit to exporting."
+        },
+        {
+          "title": "Frame.io Insider Blog",
+          "url": "https://blog.frame.io/",
+          "provider": "Frame.io (Adobe)",
+          "level": "intermediate",
+          "note": "Free. Articles from working pros on editing workflow, color, sound, and how real teams collaborate on video. Good once the basics click."
+        },
+        {
+          "title": "Final Cut Pro Resources",
+          "url": "https://www.apple.com/final-cut-pro/resources/",
+          "provider": "Apple",
+          "level": "beginner",
+          "note": "Free. Apple's official user guide, how-to videos, and learning links for Final Cut Pro on Mac."
+        },
+        {
+          "title": "How to Edit Videos - Complete Beginner Guide",
+          "url": "https://primalvideo.com/guides/how-to-edit-videos-complete-beginners-guide/",
+          "provider": "Primal Video",
+          "level": "beginner",
+          "note": "Free. A plain-English written walkthrough of the whole editing process: importing, cutting, audio, titles, and exporting."
+        }
+      ],
+      "interactivePractice": [
+        {
+          "name": "DaVinci Resolve (free full version)",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "note": "Free. A real professional editor you can download for free, no time limit. This is what you actually practice in."
+        },
+        {
+          "name": "Pexels Videos",
+          "url": "https://www.pexels.com/videos/",
+          "note": "Free, no-attribution stock footage. Download clips to practice cutting, color, and pacing when you don't have your own footage."
+        },
+        {
+          "name": "Pixabay Videos",
+          "url": "https://pixabay.com/videos/",
+          "note": "Free. More clips for practice, plus free music tracks you can drop under your edits."
+        },
+        {
+          "name": "Mixkit",
+          "url": "https://mixkit.co/free-stock-video/",
+          "note": "Free video clips, music, and sound effects in one place. Handy for building a full practice edit with audio."
+        },
+        {
+          "name": "Coverr",
+          "url": "https://coverr.co/",
+          "note": "Free, good-looking stock video. Great for practicing b-roll edits and smooth transitions."
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/editors",
+          "url": "https://www.reddit.com/r/editors/",
+          "note": "Where working video editors hang out. Leans professional, so read the rules first, but a great place to learn how the job really works."
+        },
+        {
+          "name": "r/davinciresolve",
+          "url": "https://www.reddit.com/r/davinciresolve/",
+          "note": "Active community for DaVinci Resolve users; ask questions, share fixes, and see what others are making in the free editor."
+        },
+        {
+          "name": "r/VideoEditing",
+          "url": "https://www.reddit.com/r/VideoEditing/",
+          "note": "Beginner-friendly subreddit for general editing questions, software picks, and 'how do I do this' help."
+        },
+        {
+          "name": "Blackmagic Design Forum",
+          "url": "https://forum.blackmagicdesign.com/",
+          "note": "Official forum for DaVinci Resolve. Searchable, and the answers often come from very experienced users and Blackmagic staff."
+        },
+        {
+          "name": "Creative COW",
+          "url": "https://creativecow.net/",
+          "note": "Long-running community and tutorial site for video and post-production pros across many tools."
+        }
+      ],
+      "projectIdeas": [
+        {
+          "title": "60-second phone clips highlight reel",
+          "what": "Take a day's worth of your own phone videos and cut them to one minute with music and fades. Teaches trimming, ordering, and exporting.",
+          "difficulty": "Beginner"
+        },
+        {
+          "title": "Short-form vertical edit (Reel/TikTok)",
+          "what": "Turn one piece of footage into a punchy vertical video with captions and beat-matched cuts. Teaches pacing and text.",
+          "difficulty": "Beginner"
+        },
+        {
+          "title": "Simple 'how to' tutorial video",
+          "what": "Record yourself explaining something, then edit out mistakes, add on-screen steps, and clean the audio. Teaches structure and audio.",
+          "difficulty": "Beginner to Intermediate"
+        },
+        {
+          "title": "Travel or 'a day in my life' vlog",
+          "what": "Mix talking clips with b-roll, add a color look and music. Teaches storytelling flow and mixing voice with music.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "title": "Fake product or brand ad",
+          "what": "Use free stock footage to cut a 30-60 second commercial with motion text, a color grade, and sound design. Teaches polish and timing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "title": "Interview or mini-documentary",
+          "what": "Edit an interview with b-roll cutaways, lower-thirds, and a graded look. Teaches multi-source editing and tone.",
+          "difficulty": "Intermediate to Advanced"
+        },
+        {
+          "title": "Multicam music or event edit",
+          "what": "Sync two or more camera angles and cut between them in time with audio. Teaches multicam workflow and rhythm.",
+          "difficulty": "Advanced"
+        },
+        {
+          "title": "Color grading challenge",
+          "what": "Take flat or mismatched footage and grade it to match, then build a stylized 'look'. Teaches scopes, nodes, and shot matching.",
+          "difficulty": "Advanced"
+        }
+      ],
+      "careerPaths": [
+        "Short-form / social media video editor (Reels, TikTok, YouTube Shorts)",
+        "YouTube and content creator editor (long-form videos, podcasts on camera)",
+        "Corporate and marketing video editor (ads, explainers, brand content)",
+        "Wedding and event videographer-editor",
+        "Motion graphics artist (animated titles, logos, simple effects)",
+        "Colorist (grading footage for film, ads, and online content)",
+        "Film and TV assistant editor / junior editor",
+        "Freelance all-round video editor for agencies and small businesses"
+      ],
+      "timeToJobReady": "Roughly 3-6 months of steady practice (a few hours a week) to start taking simple paid jobs like short-form social edits and basic YouTube editing. Around 9-12 months to be comfortable as a well-rounded freelance editor with a real portfolio. Specialized roles like colorist or motion graphics artist usually take a year or more of focused work on top of that.",
+      "commonMistakes": [
+        "Leaving clips too long. Beginners fall in love with their footage and keep every second. Cut harder than feels comfortable; pace holds attention, especially in short-form where the first 3 seconds decide if someone stays.",
+        "Ignoring audio. People forgive rough visuals but bail instantly on muffled, too-quiet, or distorting sound. Balance your levels, and if you add music, duck it under any talking.",
+        "Overusing flashy transitions and effects. Spinning wipes, glows, and zooms everywhere scream amateur. The plain hard cut is your friend; reach for effects only when they serve the story.",
+        "Grading before correcting, or slapping on a heavy LUT and calling it done. Fix exposure and white balance first, then add a look. A strong filter on broken footage still looks broken.",
+        "Forgetting the aspect ratio until the end. Editing a wide 16:9 project and then realizing you need vertical 9:16 for Reels means re-cropping every shot and losing half your framing. Pick the ratio before you start.",
+        "Wrong or panicked export settings. Choosing an exotic codec, a tiny bitrate that looks blocky, or the wrong resolution. Default to H.264 MP4 at 1080p (or your platform's spec) and you will be safe almost everywhere.",
+        "Editing heavy 4K or phone footage with no proxies on a modest laptop, then assuming the software is broken when playback stutters. Generate proxies and it runs smoothly.",
+        "No backup and no organization. Working off one drive with files named IMG_0423, no folders, and no copies. One corrupted card or lost folder and the whole project is gone. Label clips and keep a backup."
+      ],
+      "glossary": [
+        {
+          "term": "Playhead",
+          "definition": "The vertical line on the timeline marking the exact frame you are currently viewing. Move it to scrub through your video and pick where to cut."
+        },
+        {
+          "term": "Clip",
+          "definition": "A single piece of footage, audio, or image on your timeline. Your whole video is many clips arranged in order."
+        },
+        {
+          "term": "Frame rate (fps)",
+          "definition": "How many still images play per second, like 24, 30, or 60 fps. It affects how motion feels; 24 fps looks filmic, 60 fps looks smooth and is used for slow motion."
+        },
+        {
+          "term": "Resolution",
+          "definition": "How many pixels make up the picture, like 1080p (Full HD) or 4K. Higher means sharper but bigger files and a slower computer."
+        },
+        {
+          "term": "Bitrate",
+          "definition": "How much data per second is used to store the video. Higher bitrate means better quality and larger files; it is the main quality dial when you export."
+        },
+        {
+          "term": "Render",
+          "definition": "The process of the computer calculating effects, color, and transitions so the video can play or be exported as a finished file."
+        },
+        {
+          "term": "Clipping (audio)",
+          "definition": "When sound is too loud and distorts, creating an ugly crackle. You keep levels below the red zone to avoid it."
+        },
+        {
+          "term": "Voiceover (VO)",
+          "definition": "Recorded narration laid over the video, where you hear someone but do not see them speaking. Common in tutorials and short-form explainers."
+        },
+        {
+          "term": "Hard cut",
+          "definition": "An instant switch from one clip to the next with no transition effect. The most common and usually best-looking edit."
+        },
+        {
+          "term": "Crop",
+          "definition": "Cutting away the edges of the frame, often to refit wide footage into a vertical 9:16 shape or to remove something unwanted from view."
+        },
+        {
+          "term": "Stock footage",
+          "definition": "Pre-made clips you can download (free or paid) to use as B-roll or backgrounds when you do not have your own footage."
+        },
+        {
+          "term": "Timeline track",
+          "definition": "A horizontal lane on the timeline. Video tracks stack on top of each other; whatever is on a higher track covers what is below. Audio tracks sit underneath."
+        },
+        {
+          "term": "Scrubbing",
+          "definition": "Dragging the playhead back and forth to quickly preview footage and find the exact spot you want."
+        },
+        {
+          "term": "Export / render out",
+          "definition": "The final step that turns your edited timeline into a single playable video file, usually an MP4, ready to upload or share."
+        }
+      ],
+      "relatedDomains": [
+        "design",
+        "applied-ai",
+        "3d-modeling",
+        "game-development"
+      ],
+      "verificationNotes": [
+        "The intro video was checked via YouTube oEmbed and resolves live: 'Complete Beginners Guide To Video Editing in 2025' by Sarb Johal - The TechPacker (videoId zZff_i0ji6U).",
+        "The chosen intro video is from 2025, the most current option among the verified candidates, and gives a whole-domain beginner overview rather than tying you to one tool.",
+        "All course, article, tool, and practice links were link-checked and resolve to live, current pages (Blackmagic, Adobe, Apple, Skillshare, Pexels, Pixabay, Mixkit, Coverr, Primal Video).",
+        "All YouTube channels and community links (Reddit, Blackmagic forum, Creative COW) were verified as active and reachable.",
+        "Tool and platform notes reflect the 2024-2026 landscape where free editors like DaVinci Resolve and CapCut, plus vertical short-form, dominate."
+      ]
+    },
+    {
       "slug": "applied-ai",
       "name": "Applied AI & Generative AI",
       "cluster": "AI & Automation",

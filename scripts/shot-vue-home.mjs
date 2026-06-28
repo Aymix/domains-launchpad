@@ -1,0 +1,16 @@
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const { chromium } = require('/home/amine/.npm/_npx/705bc6b22212b352/node_modules/playwright')
+const SHOT = '/tmp/claude-1000/-home-amine/ce61f95a-c242-43f3-81fa-a9c19b7969ca/scratchpad'
+const ctx = await chromium.launchPersistentContext(SHOT + '/pwprofile2', { headless: true, args: ['--no-sandbox', '--disable-dev-shm-usage'], viewport: { width: 1300, height: 1700 } })
+const page = await ctx.newPage()
+await page.goto('http://launchpad.31.97.193.81.sslip.io/', { waitUntil: 'domcontentloaded', timeout: 45000 })
+await page.waitForSelector('.domain-card', { timeout: 30000 })
+await page.waitForTimeout(1500)
+const cards = await page.evaluate(() => document.querySelectorAll('.domain-card').length)
+const hasAI = await page.evaluate(() => document.body.innerText.includes('Applied AI'))
+const hasAuto = await page.evaluate(() => document.body.innerText.includes('Workflow Automation'))
+const hasCluster = await page.evaluate(() => document.body.innerText.includes('AI & Automation'))
+console.log('domain cards:', cards, '| Applied AI:', hasAI, '| Workflow Automation:', hasAuto, '| cluster label:', hasCluster)
+await page.screenshot({ path: SHOT + '/vue-home.png', fullPage: true })
+await ctx.close()
