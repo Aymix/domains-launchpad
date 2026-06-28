@@ -73,5 +73,5 @@ try {
 
 const info = await api('documents.info', { id: DOCID })
 const lines = (info.data.text || '').split('\n')
-const yi = lines.findIndex((l) => /youtube\.com\/watch\?v=zZff/.test(l))
+const yi = lines.findIndex((l) => /^\[https:\/\/www\.youtube\.com\/watch/.test(l))
 console.log('embed line index:', yi, '| context:', JSON.stringify(lines.slice(Math.max(0, yi - 1), yi + 2)))
