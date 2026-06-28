@@ -6288,10 +6288,10 @@
       "icon": "🎬",
       "tagline": "Turn raw clips into a story people actually watch to the end.",
       "introVideo": {
-        "url": "https://www.youtube.com/watch?v=zZff_i0ji6U",
-        "videoId": "zZff_i0ji6U",
-        "title": "Complete Beginners Guide To Video Editing in 2025",
-        "channel": "Sarb Johal - The TechPacker"
+        "url": "https://www.youtube.com/watch?v=954L0eVIdaE",
+        "videoId": "954L0eVIdaE",
+        "title": "How I Would Learn Video Editing (If I Could Start Over)",
+        "channel": "Gavin Herman"
       },
       "overview": "Video editing is the craft of taking the footage you shot, the bits and pieces, and arranging them into something that flows and makes sense. A camera just records moments. An editor decides which moments stay, in what order, how long each one lasts, and what the viewer feels along the way. The same raw clips can become a boring 10-minute slog or a tight 60-second hook, and the only difference is the editing.\n\nThe core workflow is simpler than it looks. You drop your clips onto a timeline, which is a left-to-right track of time. You watch, you find the good parts, and you cut away the dead air, the stumbles, the long pauses. Then you layer things on top: background music, a voiceover, text on screen, maybe some B-roll (extra footage) to cover a jump. You balance the audio so nobody has to reach for the volume, do a quick color pass so it looks intentional, and then you export, which turns your project into a single video file you can upload. Cut, trim, layer, balance, color, export. That loop is 90 percent of the job.\n\nHere is the part nobody tells beginners: you can start today for free, with no excuses. DaVinci Resolve is a genuinely professional editor used on real films, and the free version does almost everything. CapCut is free, runs on your phone or desktop, and is built for the vertical short-form stuff that dominates TikTok, Reels, and Shorts in 2024 to 2026. You do not need Premiere Pro or a Mac or a fancy GPU to learn. You need one clip, one free tool, and the willingness to make something a little ugly before you make something good.",
       "whyItMatters": "Video is the default language of the internet now. People search YouTube instead of Google, scroll Reels instead of reading, and judge a brand by a 15-second clip. Whether you want to grow a channel, sell a product, document a trip, or just land a job where \"can you edit?\" is on the listing, the skill pays off fast. Short-form vertical video in particular has a low barrier and huge reach, so a beginner who can cut a clean, watchable clip is genuinely useful to creators, small businesses, and themselves. And because the good free tools are the same ones pros use, the gap between \"learning\" and \"doing real work\" is smaller than in almost any other creative field.",
@@ -6719,8 +6719,8 @@
         "motion-graphics"
       ],
       "verificationNotes": [
-        "The intro video was checked via YouTube oEmbed and resolves live: 'Complete Beginners Guide To Video Editing in 2025' by Sarb Johal - The TechPacker (videoId zZff_i0ji6U).",
-        "The chosen intro video is from 2025, the most current option among the verified candidates, and gives a whole-domain beginner overview rather than tying you to one tool.",
+        "The intro video was checked via YouTube oEmbed and resolves live: \"How I Would Learn Video Editing (If I Could Start Over)\" by Gavin Herman (videoId 954L0eVIdaE), a current 2025 beginner overview.",
+        "The chosen intro video is from 2025 and gives a whole-domain beginner overview of how to start learning video editing, rather than tying you to one tool.",
         "All course, article, tool, and practice links were link-checked and resolve to live, current pages (Blackmagic, Adobe, Apple, Skillshare, Pexels, Pixabay, Mixkit, Coverr, Primal Video).",
         "All YouTube channels and community links (Reddit, Blackmagic forum, Creative COW) were verified as active and reachable.",
         "Tool and platform notes reflect the 2024-2026 landscape where free editors like DaVinci Resolve and CapCut, plus vertical short-form, dominate."
