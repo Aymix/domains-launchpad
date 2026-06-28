@@ -6733,10 +6733,10 @@
       "icon": "🌀",
       "tagline": "Make graphics move, animated logos, titles, and explainers that grab attention in the first second.",
       "introVideo": {
-        "url": "https://www.youtube.com/watch?v=BhiH0RHFBwQ",
-        "videoId": "BhiH0RHFBwQ",
-        "title": "Complete Beginners Guide to Motion Graphics in 2025!",
-        "channel": "Asquareportal"
+        "url": "https://www.youtube.com/watch?v=0N0NHlvMEWs",
+        "videoId": "0N0NHlvMEWs",
+        "title": "The Principles of Motion Design",
+        "channel": "Envato Tuts+"
       },
       "overview": "Motion graphics is graphic design that moves. Instead of a still poster or logo, you make text, shapes, icons, and illustrations animate: a logo that builds itself, words that slide and pop in time with music, an explainer video where simple shapes act out an idea. It is the animated layer you see everywhere, in YouTube intros, app onboarding screens, Instagram ads, sports broadcasts, and the lower-third name tags on interviews.\n\nIt sits right between graphic design and animation. You borrow design rules (layout, color, typography, hierarchy) and add the rules of movement (timing, easing, anticipation) so things feel alive instead of robotic. The magic word is \"easing\": real objects speed up and slow down, they never move at a constant robotic pace, and learning to make your animations ease is what turns \"amateur\" into \"smooth and professional.\" Most motion graphics is 2D, but the field stretches into 3D, character animation, and visual effects as you grow.\n\nThe main tool is Adobe After Effects, the industry standard, and there is a genuinely free, powerful alternative in DaVinci Resolve's Fusion page plus free options like Blender for 3D motion. You do not need to draw well or be a \"real animator.\" You need a sense of timing, patience for fiddly keyframes, and the willingness to copy tutorials until the core moves become muscle memory. A beginner can make a clean animated logo or a 15-second kinetic-text piece in their first few weeks.",
       "whyItMatters": "Attention is the whole game online, and movement wins attention. A motion graphic stops the scroll, explains an idea faster than text, and makes a brand look polished and modern. Every company that posts video, which is now basically every company, needs intros, lower-thirds, animated ads, and explainers. That makes motion designers some of the best-paid creatives, and it is freelance-friendly: a single animated logo or explainer is a clear, sellable deliverable. It also pairs with almost everything, video editing, UI/UX, social media, and 3D, so the skill keeps opening doors.",
@@ -7148,7 +7148,7 @@
         "game-development"
       ],
       "verificationNotes": [
-        "Intro video verified via YouTube oEmbed and is current: \"Complete Beginners Guide to Motion Graphics in 2025!\" by Asquareportal (videoId BhiH0RHFBwQ), embeddable and from 2025.",
+        "Intro video verified via YouTube oEmbed and embeddable: \"The Principles of Motion Design\" by Envato Tuts+ (videoId 0N0NHlvMEWs), a 2024 beginner overview of the core principles.",
         "All YouTube channels verified reachable (HTTP 200): @SchoolofMotion, @benmarriott, @TipTut, @ECAbrams, @MtMograph, @JakeInMotion.",
         "Resource links checked and live: School of Motion, Adobe After Effects tutorials/user guide, Blackmagic DaVinci Resolve (Fusion) training, SVGator guide, Noble Desktop roundups, Motion Design School, Greyscalegorilla, Blender, Behance. Canva/LottieFiles/Reddit return 403 to bots but are real, stable pages.",
         "Distinct from the Design and Video Editing domains: motion graphics is specifically about animating design elements (After Effects / Fusion), and is cross-linked to both.",
